@@ -1,4 +1,4 @@
-###1. 显示 Terminal 自带的 shell
+##1. 显示 Terminal 自带的 shell
 
 ```shell
 //查看当前环境shell
@@ -11,7 +11,7 @@ chsh -s $(which zsh) //需要重启
 
 
 
-###2. 在 zsh 环境中 安装 oh-my-zsh
+##2. 在 zsh 环境中 安装 oh-my-zsh
 
 ```shell
 # 安装 oh my zsh 之前必须安装 zsh
@@ -30,7 +30,7 @@ sh -c "$(curl -fsSL https://gitee.com/mirrors/oh-my-zsh/raw/master/tools/install
 
 
 
-###2.4. 安装 theme | Powerlevel10k
+##2.4. 安装 theme | Powerlevel10k
 
 ```shell
 # 下載並安裝 powerlevel10k
@@ -46,7 +46,7 @@ vim ~/.p10k.zsh
 
 
 
-###2.5. 安装 oh-my-zsh 里的插件
+##2.5. 安装 oh-my-zsh 里的插件
 
 安装插件需要打开`~/.zshrc`，找到`plugins=`，安装完成后，在其中写插件名
 注意，若修改此文件，重启终端后有效 或 使用 `source ~/.zshrc` 更新配置。
@@ -100,7 +100,7 @@ source ~/.zshrc
 
 
 
-###3. zsh 快速打开 sublime Text 进行编辑
+##3. zsh 快速打开 sublime Text 进行编辑
 
    1. 打开`open ~/.zshrc`
    2. 在`.zshrc`尾部加入 
